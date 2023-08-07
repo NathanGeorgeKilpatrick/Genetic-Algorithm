@@ -1,4 +1,6 @@
-﻿  Population.cpp
-W:\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(101,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-W:\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(156): warning C4715: 'listItems': not all control paths return a value
-  Console Genetic Algorithm.vcxproj -> W:\College\Year 3\Console Genetic Algorithm\x64\Debug\Console Genetic Algorithm.exe
+﻿  Console Genetic Algorithm.cpp
+  Population.cpp
+W:\Github\Genetic-Algorithm\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(101,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+W:\Github\Genetic-Algorithm\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(156): warning C4715: 'listItems': not all control paths return a value
+  Console Genetic Algorithm.vcxproj -> W:\Github\Genetic-Algorithm\Console Genetic Algorithm\x64\Debug\Console Genetic Algorithm.exe
