@@ -15,12 +15,17 @@ However as generatinos are being counted, the termination method can be immediat
 
 How to read the output??
 
------------------ these lines split on generation from another. 
+----------------- these lines split on generation from another.
+
 Example - 
-11011110:222:1900:0
+10110101:181:1500:3684:0.140187
 
-The first number before the colon 11011110 this number is a individuals chromosome. Each integer depicts a items that can go into the bag. A 1 means that the item is in the bag and a 0 means the item is not in the bag. 
+The first number 10110101 this number is a individuals chromosome. Each integer depicts a items that can go into the bag. A 1 means that the item is in the bag and a 0 means the item is not in the bag. 
 
-The second nubmber is the decoded int created by the chromosome. When the example binary number is decoded it represents the number 222. As explained before the current termination number is 225.
+The second nubmber is the decoded int created by the chromosome. When the example binary number is decoded it represents the number 181. As explained before the current termination number is 225.
 
-The third number is the combined weight of the items within the bag. 
+The third number (1500) is the combined fitness of all items in the bag. 
+
+The fourth number (3684) is the combined weight of all items in the bag.
+
+The last number (0.140187) is the fitness ratio of the individual in this generation. This fitness ratio displays the chance of the individual to be selected for mating. 
