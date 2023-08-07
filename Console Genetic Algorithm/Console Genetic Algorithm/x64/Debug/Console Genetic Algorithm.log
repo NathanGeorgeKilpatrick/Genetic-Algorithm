@@ -1,7 +1,4 @@
 ﻿  Population.cpp
-C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(58,39): warning C4244: 'return': conversion from 'const double' to 'int', possible loss of data
-C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(101,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Population.cpp(113,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Population.cpp(114,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(156): warning C4715: 'listItems': not all control paths return a value
-  Console Genetic Algorithm.vcxproj -> C:\Users\16nat\Documents\College\Year 3\Console Genetic Algorithm\x64\Debug\Console Genetic Algorithm.exe
+W:\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(101,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+W:\College\Year 3\Console Genetic Algorithm\Console Genetic Algorithm\Individual.h(156): warning C4715: 'listItems': not all control paths return a value
+  Console Genetic Algorithm.vcxproj -> W:\College\Year 3\Console Genetic Algorithm\x64\Debug\Console Genetic Algorithm.exe

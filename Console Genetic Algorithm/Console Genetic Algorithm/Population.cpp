@@ -66,8 +66,8 @@ public:
 		sum_of_fitness = sum;
 
 		for (int i = 0; i != population_size; i++) { // calculates and sets each fitness ratio from sum of fitness
-			double fr = population[i].getFitness() / sum_of_fitness * 100;
-			population[i].getFitnessratio();
+			double fr = population[i].getFitness() / sum_of_fitness;
+			population[i].setFitnessratio(fr);
 		}
 	}
 
@@ -108,10 +108,10 @@ void printPopulation(Population& population)
 
 //  Roulette wheel selection
 void roulette_wheel(Population& population)
-{
+  {
 	// Selecting the individual for mom and dad
-	int selection_mom = randDouble(1, 100);
-	int selection_dad = randDouble(1, 100);
+	double selection_mom = randDouble(0, 1);
+	double selection_dad = randDouble(0, 1);
 
 	// Sorting the population based on fitness
 	bool momPicked = false, dadPicked = false;
@@ -120,9 +120,11 @@ void roulette_wheel(Population& population)
 
 	// Cycling through the population until the sum of fitness if bigger than the number selected
 	double sumOfFitness = 0;
-	for (int i = population.getPopulationSize() - 1; i >= 0; i--) {
 
+	for (int i=population.getPopulationSize() - 1; i >= 0; i--)
+	{
 		sumOfFitness += population.getBag(i).getFitnessratio();
+
 		if (!momPicked)
 			if (selection_mom < sumOfFitness)
 			{

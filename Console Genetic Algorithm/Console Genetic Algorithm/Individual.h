@@ -55,7 +55,7 @@ public:
 	int getDecodedInt() const { return decodedInt; }
 	int getFitness() const { return fitness; }
 	int getWeight() const { return weight; }
-	int getFitnessratio() const { return fitnessRatio; }
+	double getFitnessratio() const { return fitnessRatio; }
 
 	/* Modifying Operations */
 	void setChromosome(string chromo) { chromosome = chromo; }
@@ -160,7 +160,7 @@ ostream& operator<<(ostream& os, Bag& bag)
 {
 	const char colon = ':';
 	return os << bag.getChromosome() << colon << bag.getDecodedInt()
-		<< colon << bag.getFitness() << colon << bag.getFitnessratio() << endl;
+		<< colon << bag.getFitness() << colon << bag.getWeight() << colon << bag.getFitnessratio() << endl;
 }
 
 // Debug Function
